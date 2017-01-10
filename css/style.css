@@ -1,0 +1,190 @@
+@charset "UTF-8";
+* {
+  font-family: "Fjalla One", sans-serif, 微軟正黑體;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  background-color: #EEEFEA;
+}
+
+.title_hr {
+  border: solid 3px #FFC857;
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.smalltitle_hr {
+  border: solid 3px #FFC857;
+  width: 40px;
+  height: auto;
+  margin: auto auto;
+  margin-bottom: 40px;
+}
+
+p {
+  text-indent: 34px;
+}
+
+.resume {
+  width: 870px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 30px;
+  top: 50px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #333;
+  box-shadow: -8px 8px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.aboutme {
+  width: 600px;
+  height: 400px;
+  background-color: #fff;
+  padding: 10px 40px;
+}
+.aboutme .edu, .aboutme .job {
+  margin-top: 50px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.aboutme .job {
+  margin-left: 50px;
+}
+.aboutme i {
+  font-size: 30px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background-color: #FFC857;
+  border-radius: 50%;
+  line-height: 60px;
+  color: #fff;
+  margin: 0 10px 10px 10px;
+}
+.aboutme ul {
+  list-style: none;
+  padding: 0px;
+}
+.aboutme span {
+  font-size: 10px;
+  color: #333;
+}
+
+.photo {
+  width: 280px;
+  height: 500px;
+  position: absolute;
+  right: -30px;
+  top: -20px;
+  border: solid 10px #fff;
+  border-radius: 0 0 0 80px;
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/11149241_1094886080540824_106241600725486771_n.jpg?oh=d987be2a77854f48dcd847a02ea3ab4c&oe=591D6061);
+  background-position: -195px center;
+  background-size: cover;
+  box-shadow: -8px 8px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.achievement {
+  width: 600px;
+  height: 250px;
+  background-color: #fff;
+  padding: 10px 40px;
+}
+.achievement li {
+  line-height: 30px;
+}
+
+.skills {
+  width: 600px;
+  height: 300px;
+  background-color: #fff;
+  padding: 10px 40px;
+}
+.skills ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: -10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.skills ul li {
+  margin: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.skills ul li p {
+  margin-top: 10px;
+}
+.skills ul img {
+  width: 50px;
+  height: 50px;
+}
+.skills ul .progressbar_html, .skills ul .progressbar_css, .skills ul .progressbar_js {
+  width: 350px;
+  height: 20px;
+  border: solid 3px #333;
+  margin-left: 40px;
+  border-radius: 8px;
+}
+.skills ul .progressbar_html .bar1, .skills ul .progressbar_css .bar1, .skills ul .progressbar_js .bar1 {
+  width: 175px;
+  height: 11px;
+  margin: 2px;
+  background-color: #f24;
+  border-radius: 8px;
+}
+.skills ul .progressbar_html .bar2, .skills ul .progressbar_css .bar2, .skills ul .progressbar_js .bar2 {
+  width: 210px;
+  height: 11px;
+  margin: 2px;
+  background-color: #2FA5CC;
+  border-radius: 8px;
+}
+.skills ul .progressbar_html .bar3, .skills ul .progressbar_css .bar3, .skills ul .progressbar_js .bar3 {
+  width: 105px;
+  height: 11px;
+  margin: 2px;
+  background-color: #F0D53E;
+  border-radius: 8px;
+}
+
+.contacts {
+  width: 270px;
+  height: 300px;
+  color: #fff;
+  position: absolute;
+  right: 0px;
+  top: 500px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.contacts .name, .contacts .en {
+  text-align: center;
+}
+.contacts .en {
+  margin-bottom: 60px;
+}
+.contacts i {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
