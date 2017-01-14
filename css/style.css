@@ -166,6 +166,12 @@ p {
   background-color: #F0D53E;
   border-radius: 8px;
 }
+.skills ul .progressbar_html p, .skills ul .progressbar_css p, .skills ul .progressbar_js p {
+  text-indent: 0px;
+}
+.skills ul .progressbar_html .frame, .skills ul .progressbar_css .frame, .skills ul .progressbar_js .frame {
+  position: absolute;
+}
 
 .contacts {
   width: 270px;
